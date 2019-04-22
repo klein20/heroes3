@@ -1,0 +1,130 @@
+body { margin: 0;  font: normal 18px/28px Times New Roman, Arial, sans-serif; }
+.clear { clear: both;}
+p { margin: 0; padding: 10px 0;}
+h2 { padding: 0 0 12px;}
+strong { font-weight: bold;}
+em { font-style: italic;}
+a {text-decoration: none underline; color: #31420B; }
+a:hover {color: green;}
+form, menu, iframe { display: block; margin: 0; padding: 0; border: none;}
+ol, ul, dl, li, dt, dd { margin: 0; padding: 0; list-style: none;}
+* { outline: none;}
+
+
+body {
+	background: url(../images/background.jpg) repeat center center ;
+}
+.resize {
+	width: 900px;
+    margin: 12px auto;
+	border-radius: 10px;
+	background-color: white;
+
+}
+.green_line
+{
+	background-color: #234000;
+	border-radius: 8px;
+	width: 100%;
+	color: #fefefe;
+	padding-left: 15px;
+	padding-right: 15px;
+	box-sizing: border-box;
+}
+
+.logo {
+	float: left;
+	margin-top: 5px;
+	margin-left: 12px;
+}
+.name {
+	display: inline-block;
+	padding-top: 15px;
+	text-align: center;
+	width: 250px;
+	height: 220px;
+	line-height: 50px;
+}
+.span_heroes {
+	color: #000000;
+	font-family: "Times New Roman";
+	font-size: 50px;
+	text-transform: uppercase;
+	display: block;
+}
+.span_III {
+	color: #000000;
+	font-family: "Times New Roman";
+	font-size: 64px;
+	text-transform: uppercase;
+	display: block;
+}
+.contacts {
+	float: right;
+	text-align: right;
+	padding:30px 15px 0 0;
+	display: inline-block;
+}
+.social {
+	color: #447700;
+}
+.contacts a {
+	display: block;
+}
+
+a:hover {
+	color: #70be00;
+}
+
+.content {
+	height: auto;
+	padding-left: 12px;
+	width: 64%;
+	float: left;
+}
+h1 {
+	font-size: 28px;
+}
+.text  
+{
+	text-indent: 1.5em;
+	font-size: 16px;
+	font-family: "Times New Roman";
+
+}
+.heroes3 {
+	font-size: 14px;
+}
+
+.main_nav {
+	float: right;
+	width: 300px;
+	
+}
+.main_nav li {
+	padding: 8px;
+}
+
+.span_main_bar {
+	color: #ffffff;
+	font-size: 22px;
+	margin: 17px;
+
+}
+.green_block {
+	background-color: #234000;
+	width: 300px;
+	height: 50px;
+}
+.text_footer {
+	color: #fefefe;
+	text-align: left;
+}
+.text_mail {
+}
+.cls {
+	clear: both;
+}
+.mail {
+	float: right;
+}
