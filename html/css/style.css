@@ -9,7 +9,7 @@ a:hover {color: green;}
 form, menu, iframe { display: block; margin: 0; padding: 0; border: none;}
 ol, ul, dl, li, dt, dd { margin: 0; padding: 0; list-style: none;}
 * { outline: none;}
-
+h1 {margin-left: -24px;}
 
 body {
 	background: url(../images/background.jpg) repeat center center ;
@@ -27,15 +27,15 @@ body {
 	border-radius: 8px;
 	width: 100%;
 	color: #fefefe;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding: 0 15px;
 	box-sizing: border-box;
+	line-height: 45px;
 }
 
 .logo {
 	float: left;
-	margin-top: 5px;
-	margin-left: 12px;
+	padding-top: 10px;
+	padding-left: 30px;
 }
 .name {
 	display: inline-block;
@@ -58,6 +58,7 @@ body {
 	font-size: 64px;
 	text-transform: uppercase;
 	display: block;
+	letter-spacing: 16px;
 }
 .contacts {
 	float: right;
@@ -84,9 +85,11 @@ a:hover {
 }
 h1 {
 	font-size: 28px;
+	font-weight: normal;
 }
 .text  
 {
+	text-align: left;
 	text-indent: 1.5em;
 	font-size: 16px;
 	font-family: "Times New Roman";
@@ -105,25 +108,21 @@ h1 {
 	padding: 8px;
 }
 
-.span_main_bar {
+span.main_bar  {
 	color: #ffffff;
 	font-size: 22px;
-	margin: 17px;
+	padding: 10px 0  10px 17px;
+	display: inline-block;
 
 }
 .green_block {
 	background-color: #234000;
 	width: 300px;
-	height: 50px;
+	line-height: 30px;
 }
 .text_footer {
 	color: #fefefe;
 	text-align: left;
-}
-.text_mail {
-}
-.cls {
-	clear: both;
 }
 .mail {
 	float: right;
