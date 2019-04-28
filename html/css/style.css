@@ -9,7 +9,10 @@ a:hover {color: green;}
 form, menu, iframe { display: block; margin: 0; padding: 0; border: none;}
 ol, ul, dl, li, dt, dd { margin: 0; padding: 0; list-style: none;}
 * { outline: none;}
-h1 {margin-left: -24px;}
+h1 {
+	margin-left: -24px;
+	font-size: 28px;
+	font-weight: normal;}
 
 body {
 	background: url(../images/background.jpg) repeat center center ;
@@ -21,6 +24,7 @@ body {
 	background-color: white;
 
 }
+
 .green_line
 {
 	background-color: #234000;
@@ -34,41 +38,48 @@ body {
 
 .logo {
 	float: left;
-	padding-top: 10px;
+	padding-top: 11px;
 	padding-left: 30px;
 }
+
 .name {
 	display: inline-block;
-	padding-top: 15px;
+	padding-top: 39px;
 	text-align: center;
 	width: 250px;
 	height: 220px;
 	line-height: 50px;
 }
+
 .span_heroes {
-	color: #000000;
-	font-family: "Times New Roman";
 	font-size: 50px;
 	text-transform: uppercase;
 	display: block;
 }
+
+.span_M_M {
+	display: block;
+	font-size: 24px;
+}
+
 .span_III {
-	color: #000000;
-	font-family: "Times New Roman";
 	font-size: 64px;
 	text-transform: uppercase;
 	display: block;
 	letter-spacing: 16px;
 }
+
 .contacts {
 	float: right;
 	text-align: right;
-	padding:30px 15px 0 0;
+	padding: 30px 15px 0 0;
 	display: inline-block;
 }
+
 .social {
 	color: #447700;
 }
+
 .contacts a {
 	display: block;
 }
@@ -83,18 +94,15 @@ a:hover {
 	width: 64%;
 	float: left;
 }
-h1 {
-	font-size: 28px;
-	font-weight: normal;
-}
+
 .text  
 {
 	text-align: left;
 	text-indent: 1.5em;
 	font-size: 16px;
-	font-family: "Times New Roman";
 
 }
+
 .heroes3 {
 	font-size: 14px;
 }
@@ -104,26 +112,30 @@ h1 {
 	width: 300px;
 	
 }
+
 .main_nav li {
 	padding: 8px;
 }
 
-span.main_bar  {
+.main_bar  {
 	color: #ffffff;
 	font-size: 22px;
 	padding: 10px 0  10px 17px;
 	display: inline-block;
 
 }
+
 .green_block {
 	background-color: #234000;
 	width: 300px;
 	line-height: 30px;
 }
+
 .text_footer {
 	color: #fefefe;
 	text-align: left;
 }
+
 .mail {
 	float: right;
 }
